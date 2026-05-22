@@ -1,0 +1,15 @@
+# AWS SDK
+boto3>=1.42.0
+awscli>=1.44.0
+
+# Strands Agents SDK
+strands-agents>=1.41.0
+strands-agents-tools>=0.6.0
+
+# Browser tool dependencies
+playwright>=1.60.0
+nest_asyncio>=1.6.0
+
+# Dev utilities
+python-dotenv>=1.0.0
+rich>=14.0.0

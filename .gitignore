@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Environment variables — contains AWS credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Strands runtime state
+examples/02_strands_basics/repl_state
+
+# LLM Wiki — generated at runtime by ingest.py
+examples/06_llm_wiki/wiki/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+examples/06_llm_wiki/query 2.py
